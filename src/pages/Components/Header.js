@@ -46,40 +46,7 @@ function Header() {
 
               //  End 
 
-    //     <div className={headerWrapper} >
-    // <div className={headsection}>
-    //  <div className={logo}>
-    //         <h2>Simply<span style={{ color: "#292626" }}>Recipe</span></h2>
-    //       </div>
-    //       <div className={menuicon}><FaBars onClick={() => setstatus(!status)} /> </div>
-    // </div>
-
-    //       <div className={navContainer}>
-    //       <nav className={status ? active :menu }>
-    //             <div className={nav}>
-
-    //              <ul >
-    //             <div className={headstyle}><li><Link to="/" activeClassName={activelink}>Home</Link> </li></div>
-    //             <div  className={headstyle}><li> <Link to="/recipe" activeClassName={activelink}>Recipe</Link> </li></div>
-
-    //             <li><Link to="/tags" activeClassName={activelink}>Tags</Link></li>
-    //             <li><Link to="/about" activeClassName={activelink}>About</Link></li>
-    //             <li className={navbtn}> <button ><Link to="contact">Contact</Link></button></li>
-
-    //           </ul>
-
-    //         </div>
-    //             </nav>
-
-
-    //         <div className={contactbtn}><button ><Link to="contact">Contact</Link></button></div>
-    //       </div>
-
-
-
-
-
-    //     </div>
+    
   )
 }
 
