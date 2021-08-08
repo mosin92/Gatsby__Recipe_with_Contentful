@@ -1,0 +1,12 @@
+.Footerwrapper{
+    width:100% ;
+    padding: 10px;
+    margin: 0 auto;
+    color: var(--bgcolor);
+    background-color: rgb(24, 23, 23);
+    padding: 20px;
+    text-align: center;
+}
+.Footerwrapper h3{
+    font-family: var(--headertextfont);
+}
