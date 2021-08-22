@@ -4,7 +4,7 @@ import { nav, headerWrapper, menulist,ListMenu,contactlink,HideMenu, menubar, co
 import { FaBars } from 'react-icons/fa'
 function Header() {
   const [status, setstatus] = useState(false)
-  const[screenwidth,setscreenwidth]=useState(window.screen.width)
+  const[screenwidth,setscreenwidth]=useState(0)
   
   const actualwidth=()=>{
     setscreenwidth(window.innerWidth)
