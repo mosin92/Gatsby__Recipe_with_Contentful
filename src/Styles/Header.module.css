@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Shadows+Into+Light&display=swap');
- *{
+@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap'); 
+*{
      box-sizing: border-box;
      margin: 0;
      padding:0;
@@ -9,11 +10,22 @@
  body{
     background-color: blanchedalmond;
  }
+ .Main{
+     
+     display: flex;
+     flex-direction: column;
+     height: 100vh;
+ }
+ .content{
+     flex-grow: 1;
+ }
+
  :root{
     --bgcolor:rgb(238, 66, 66);
     --myfont:'Lobster', cursive;
     --headertextfont:'Dancing Script', cursive;
     --headertextcolor:rgb(68, 68, 68);
+    --bodytext:'Caveat', cursive;
  }
  h2{
     margin:0;
@@ -97,7 +109,7 @@ button  a{
     background-color: var(--bgcolor);
     padding: 5px 12px 5px 12px;
     border-radius: 5px;
-    /* display:none; */
+    display:none;
     margin-left:auto;
 }
 .ListMenu{
@@ -105,9 +117,11 @@ button  a{
     max-width: 79%;
     /* min-width: 250pssx; */
     margin:0 auto;
-    display: block;
-    transition: 0.5s;
+    
+    transition: 0.4s;
     height: 250px;
+    display: block;
+    /* transition-delay: 0.5s; */
 
 }
 .HideMenu{
@@ -155,7 +169,7 @@ button  a{
 }
 
 .headsection{
-    border: 1px solid black;
+    /* border: 1px solid black; */
     display: flex;
     flex-direction: row;  
 }
@@ -165,7 +179,7 @@ button  a{
     
     .header-wrapper{
        max-width: 90%;
-       min-width: 250px;
+       min-width: 200px;
     }
 }
 

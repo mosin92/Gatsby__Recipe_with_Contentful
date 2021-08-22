@@ -1,13 +1,16 @@
 import React from 'react'
-import Layout from './Components/Layout'
+import Layout from '../Components/Layout'
 import { homeWrapper, cover, coverContainer,mainbody,taglist,recipelist } from '../Styles/Home.module.css'
 import {recipelist2} from '../Styles/Recipe.module.css'
-import TagList from "./Components/TagList"
-import ReceipeList from "./Components/ReceipeList"
+import TagList from '../Components/TagList'
+import ReceipeList from '../Components/ReceipeList'
+import SEO from '../Components/SEO'
 
 function Receipe() {
     return (
-        <Layout><div className={homeWrapper}>
+        <Layout>
+          <SEO title="Recipe" />
+          <div className={homeWrapper}>
 
       <div className={mainbody}>
 
@@ -22,7 +25,7 @@ function Receipe() {
       </div>
      
      {/* Body of main */}
-        Recipe Page
+       
     </div>
     </Layout>
     )

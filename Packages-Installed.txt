@@ -1,0 +1,13 @@
+
+        **************** Packages Required For This Application ***************
+
+   
+        1)  npm install gatsby-source-contentful
+
+        2) npm install env
+
+        3) npm install gatsby-plugin-image gatsby-plugin-sharp
+          
+           gatsby-source-filesystem gatsby-transformer-sharp
+
+        4) npm install slugify

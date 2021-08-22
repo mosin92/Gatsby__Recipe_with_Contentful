@@ -1,0 +1,21 @@
+
+.featurecontainer{
+   
+    display:flex;
+    justify-content:space-between;
+    flex-wrap: wrap;
+
+}
+
+.featureimg{
+    width: 100%;
+}
+
+.featureimg img{
+    width: 100%;
+    border-radius: 5px;
+}
+
+.featurecontainer h3,p{
+    margin-top: 10px;
+}

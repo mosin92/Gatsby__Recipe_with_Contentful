@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+
+ 
+.aboutmaincontainer{
+    display: flex;
+    flex-direction: column;
+    
+    width: 1000px;
+    margin: auto;
+}
+
+.topaboutseciton{
+    display:  flex;
+    justify-content: space-between;
+
+}
+
+.descriptionsection{
+    /* border:1px solid black; */
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.descriptionsection p{
+    /* margin-top: 20px; */
+    font-family: 'Caveat', cursive;
+    font-size: larger;
+    color: var(--headertextcolor);
+}
+
+.descriptionsection h1{
+    font-family: var(--myfont);
+}
+
+.imagesection{
+    /* border:1px solid black; */
+    width: 50%;
+}
+
+.imagesection img{
+    float: right;
+    border-radius: 5px;
+    height: 250px;
+}
+.aboutcontactbtn ul li {
+    list-style: none;
+    display: inline-block;
+}
+.aboutcontactbtn{
+    
+    width: 92px;
+    text-align: center;
+    padding: 5px 15px 5px 15px;
+    font-family: var(--headertextfont);
+    border-radius: 5px;
+    font-size: 1.2rem;
+    background-color: var(--bgcolor);
+    box-shadow: 2px 2px 1px rgb(233, 182, 182);
+    cursor: pointer;
+}
+
+
+/* Lower About Section CSS */
+
+
+.loweraboutsection h4{
+    text-align:  center;
+    font-family: var(--headertextfont);
+    color: var(--headertextcolor);
+    font-size: larger;
+    margin: 30px 0;
+}
+
+@media(max-width:1100px){
+    .aboutmaincontainer{
+        max-width: 90%;
+        min-width: 200px;
+    }
+}
+
+@media(max-width:850px){
+   .topaboutseciton{
+       flex-direction: column;
+       
+   }
+   .descriptionsection{
+       width: 100%;
+       /* border: 1px solid black; */
+       /* min-height: 230px; */
+       margin-bottom: 30px;
+   }
+   .descriptionsection p{
+       line-height: 0.9cm;
+       margin-top: 15px;
+   }
+   .imagesection{
+       width: 100%;
+       /* border: 1px solid black; */
+       height:auto
+   }
+   .imagesection img{
+    float: none;
+    width: 100%;
+    
+}
+.aboutcontactbtn{
+    margin-top: 15px;
+}
+}

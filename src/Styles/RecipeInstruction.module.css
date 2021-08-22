@@ -1,0 +1,146 @@
+
+ .wrapper{
+     padding: 30px 0;
+     display: flex;
+     justify-content: space-between;
+     margin-top: 30px;
+ }
+.wrapper h2{
+    font-family: var(--myfont);
+    color: var(--headertextcolor);
+}
+ .instructionbox{
+     width: 60%;
+     display: flex;
+     flex-direction: column;
+     /* justify-content: space-between; */
+ }
+
+ 
+
+ .barline{
+    
+     background:linear-gradient(to right,rgb(253, 112, 112),rgb(250, 75, 75));
+     height: 1px;
+     
+     width: 85%;
+     margin-left: 20px;
+ }
+
+ .stepstyle{
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+ }
+
+   /* .insturctionlist Style */
+ .insturctionlist{
+     margin-top: 10px;
+     margin-bottom: 30px;
+     font-family:var(--bodytext);
+     font-size:large;
+     color:var(--headertextcolor);
+ }
+ .stepswrapper{
+     margin-top: 30px;
+     /* border: 1px solid black; */
+ }
+ .stepnumberstyle{
+     background-color: var(--bgcolor);
+     padding: 10px 5px 10px 5px;
+     color: white;
+     font-family: var(--bodytext);
+     
+ }
+
+
+    /* ingredientbox Styling */
+    .ingredientbox{
+        width: 29%;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .ingredientlist{
+        margin-top: 20px;
+        
+    }
+
+    .ingredientbox p{
+        border-bottom: 1px solid var(--bgcolor);
+        line-height: 1.2cm;
+        padding-bottom: 7px;
+        font-family: var(--bodytext);
+        font-size: large;
+    }
+
+
+    /* Tool Section Styling */
+
+    .toolsection{
+        margin-top: 30px;
+    }
+
+    .toollist{
+        margin-top: 20px;
+    }
+
+
+    @media(max-width:900px){
+        .wrapper{
+            flex-direction: column;
+        }
+        .instructionbox{
+            width: 100%;
+            font-size: x-large;
+        }
+        .ingredientbox{
+            width: 100%;
+            margin-top: 50px;
+           font-size: x-large;
+        }
+
+        .insturctionlist{
+            font-size: x-large;
+        }
+        .ingredientbox p{
+            font-size: x-large;
+        }
+        .toolsection{
+            margin-top: 50px;
+            font-size: x-large;
+        }
+    }
+
+    @media(max-width:700px){
+        .instructionbox{
+            font-size: medium;
+        }
+        .ingredientbox{
+            font-size: larger;
+        }
+        .insturctionlist{
+            font-size: larger;
+        }
+        .toolsection{
+            font-size: large;
+        }
+        .barline{
+            width: 77%;
+        }
+    }
+    @media(max-width:370px){
+        .barline{
+            width: 72%;
+        }
+        
+    }
+
+    @media(max-width:300px){
+        .stepstyle{
+            font-size: small;
+        }
+        
+    }
