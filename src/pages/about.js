@@ -1,11 +1,10 @@
 import React from 'react'
 import Layout from '../Components/Layout'
-import cookingrecipe from '../Images/cookingrecipe.jpg'
 import {aboutmaincontainer,topaboutseciton,loweraboutsection,aboutcontactbtn,descriptionsection,imagesection} from '../Styles/About.module.css'
-import { Link ,graphql} from 'gatsby'
+import { Link } from 'gatsby'
 import FeaturesImages from '../Components/FeaturesImages'
 import SEO from '../Components/SEO'
-
+import {StaticImage} from 'gatsby-plugin-image'
 function About() {
 
     return (
@@ -40,7 +39,10 @@ function About() {
 
                         <div className={imagesection}>
                             
-                            <img src={cookingrecipe} alt="cooking" width="90%" />
+                            <StaticImage 
+                            src="../Images/cookingrecipe.jpg"
+                            alt="cooking" width="100%" placeholder="blurred" layout="constrained" />
+                            {/* <img src={cookingrecipe} alt="cooking" width="90%" /> */}
                         </div>
                      
 

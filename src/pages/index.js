@@ -1,7 +1,6 @@
 import React from "react"
-import { homeWrapper, cover, coverContainer,mainbody,taglist,recipelist } from '../Styles/Home.module.css'
+import { homeWrapper, cover, coverContainer,mainbody,recipelist } from '../Styles/Home.module.css'
 import Layout from "../Components/Layout"
-import img1 from '../Images/cover1.jpg'
 import TagList from "../Components/TagList"
 import ReceipeList from "../Components/ReceipeList"
 import SEO from "../Components/SEO"

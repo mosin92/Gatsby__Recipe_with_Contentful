@@ -2,7 +2,6 @@ import React from 'react'
 import { graphql, Link } from 'gatsby'
 import { templatewrapper, herosection, tagdiv, icon, iconitem, iconSection, heroimageSection, detailsection, tagsection, tagitem, descriptionsection } from '../Styles/Template.module.css'
 import Layout from '../Components/Layout'
-import img2 from '../Images/cholateCake.jpg'
 import { BsClock, BsClockHistory, BsPeople } from "react-icons/bs";
 import RecipeInstruction from '../Components/RecipeInstruction'
 import { GatsbyImage, getImage } from 'gatsby-plugin-image'

@@ -1,5 +1,5 @@
 import React from 'react'
-import { wrapper, instructionbox, ingredientbox, toollist, toolsection, ingredientlist, stepnumberstyle, stepswrapper, insturctionlist, stepstyle, stepname, barline } from '../Styles/RecipeInstruction.module.css'
+import { wrapper, instructionbox, ingredientbox, toolsection, ingredientlist, stepnumberstyle, stepswrapper, insturctionlist, stepstyle, barline } from '../Styles/RecipeInstruction.module.css'
 
 function RecipeInstruction({ instructions, ingredients, tools }) {
 

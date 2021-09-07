@@ -1,6 +1,5 @@
 import React from 'react'
 import Layout from '../Components/Layout'
-import cookingrecipe from '../Images/cookingrecipe.jpg'
 import {aboutmaincontainer,loweraboutsection} from '../Styles/About.module.css'
 import {contactformsection,topcontactsection,contactdesciptionsection} from '../Styles/Contact.module.css'
 import FeaturesImages from '../Components/FeaturesImages'

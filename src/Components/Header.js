@@ -1,6 +1,6 @@
 import React, { useState,useEffect } from 'react'
 import { Link } from 'gatsby'
-import { nav, headerWrapper, menulist,ListMenu,contactlink,HideMenu, menubar, contactbtn, logo, activelink, navbtn, menuicon, headstyle, active, navContainer, menu, headsection } from '../Styles/Header.module.css'
+import {  headerWrapper, menulist,ListMenu,contactlink,HideMenu, menubar, contactbtn, logo, activelink } from '../Styles/Header.module.css'
 import { FaBars } from 'react-icons/fa'
 function Header() {
   const [status, setstatus] = useState(false)

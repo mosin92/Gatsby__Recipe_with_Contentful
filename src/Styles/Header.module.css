@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Shadows+Into+Light&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap'); 
 *{
      box-sizing: border-box;
@@ -64,7 +64,7 @@ button  a{
 
 .menulist{
     /* border: 1px solid black; */
-    font-size: 1.2rem;
+    
     font-family: var(--headertextfont);
     color: var(--headertextcolor);
     margin-left: 30px;
@@ -73,7 +73,12 @@ button  a{
 
 .menulist ul li{
     padding-left: 30px;
+    
+    
+}
+.menulist ul li a{
     font-weight: bold;
+    font-size: 1.5rem;
 }
 .contactlink{
     display: flex;
@@ -152,7 +157,7 @@ button  a{
     text-shadow: 2px 2px 1px rgb(211, 208, 208);
     color: var(--bgcolor);
 
-    font-size: large;
+    font-size: 1.5rem;
     font-family: var(--myfont);
 }
 .activelink{
@@ -198,4 +203,10 @@ button  a{
        width: 90%;
    }
    
+}
+
+@media(max-width:500px){
+    .logo{
+        font-size: 1.2rem;
+    }
 }

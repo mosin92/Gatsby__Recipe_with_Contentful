@@ -8,7 +8,7 @@ import SEO from '../Components/SEO'
 function Tags({data}) {
 
     const newArray=TagSetup(data)
-    console.log(newArray)
+
     return (
         <div>
             <Layout>

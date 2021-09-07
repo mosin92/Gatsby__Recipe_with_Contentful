@@ -13,7 +13,6 @@ function SEO({title,description}) {
     }
   `)
   const {site:{siteMetadata:{title:sitetitle ,description:sitedescription}}}=data
-  console.log(sitetitle,sitedescription)
   const metadescription=description || sitedescription
     return (
        <Helmet title={`${title} | ${sitetitle}`} meta={[{name:"description",content:metadescription}]}>

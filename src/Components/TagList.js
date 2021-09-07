@@ -18,7 +18,6 @@ function TagList() {
   `)
   
     const newArray=TagSetup(data)
-    console.log(newArray)
     return (
         <div className={taglist}>
             <h2>Recipe</h2>

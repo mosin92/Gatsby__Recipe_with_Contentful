@@ -1,8 +1,7 @@
 import React from 'react'
 import {featurecontainer,featureimg} from '../Styles/FeatureImages.module.css'
-import img2 from '../Images/recipe1.jpg'
 import { Link,graphql, useStaticQuery } from 'gatsby'
-import {recipeimg,recipewrapper,recipecontainer} from '../Styles/Home.module.css'
+import {recipecontainer} from '../Styles/Home.module.css'
 import { GatsbyImage,getImage } from 'gatsby-plugin-image'
 import slugify from 'slugify'
 const query = graphql`

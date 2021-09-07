@@ -1,9 +1,9 @@
 import React from 'react'
-import { recipeimg, recipewrapper, recipecontainer ,wrappercontainer } from '../Styles/Home.module.css'
+import { recipeimg, recipewrapper, recipecontainer  } from '../Styles/Home.module.css'
 import { graphql, useStaticQuery,Link } from 'gatsby'
 import { GatsbyImage,getImage } from 'gatsby-plugin-image'
 import slugify from 'slugify'
-
+import ScrollAnimation from 'react-animate-on-scroll';
 const query = graphql`
   {
     allContentfulRecipeApp(sort: {fields: title, order: ASC}) {
@@ -22,11 +22,11 @@ const query = graphql`
 function ReceipeList() {
     const data = useStaticQuery(query)
     const recipe = data.allContentfulRecipeApp.nodes
-    console.log(recipe)
+  
    
     return (
         <div className={recipewrapper}>
-            
+           
                 {
                 recipe.map((item) => {
                     const { id, title, prepTime, cookTime, images } = item
@@ -52,7 +52,7 @@ function ReceipeList() {
                     })
                 }
 
-           
+          
         </div>
     )
 }
